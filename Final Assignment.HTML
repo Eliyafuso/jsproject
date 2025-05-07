@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>ATM Eliana Yafuso</title>
+  </head>
+  <body onload="initialize()"> 
+  
+	<h2>ATM Prepared by Eliana Yafuso</h2> 
+	
+	<table border="1" style="width:300">
+		<tr>
+			<td colspan="2" style="text-align: center; vertical-align: middle;">
+				<h3>Enter one of the following credentials to login:</h3> <br>
+				Account#:<input name="displayAccount" id="displayAccount" type="text" /><br><br>
+				PIN #:<input name="displayPin" id="displayPin" type="text" /><br>
+				<div name="displaySubMsg" id="displaySubMsg"></div><br> 
+			</td>
+		</tr>
+		
+		<tr>
+			<td><button onclick="enterPressed();">Submit</button></td>
+			<td><button onclick="initialize();">Cancel</button></td>
+		</tr>
+		
+		<tr>
+			<td colspan="2" style="width:70px; height:70px;"><div name="displayMessage" id="displayMessage"></div></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+
+	<div id="displayMovements">
+        <table border="1">
+            <tr>
+                <td colspan="3">
+                    <h3>Accounts</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Julian Alvarez</td>
+                <td>881764</td>
+                <td>1111</td>
+            </tr>
+            <tr>
+                <td>Pedro Perez</td>
+                <td>881765</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>Laura Salvatore</td>
+                <td>881766</td>
+                <td>8080</td>
+            </tr>
+            <tr>
+                <td>Juana Montero</td>
+                <td>881767</td>
+                <td>1515</td>
+            </tr>
+        </table>
+    </div>
+	<script src="./customer_account_Class.js"></script>
+	<script src="./atm_functions.js"></script>	
+</body>
+</html>
