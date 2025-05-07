@@ -17,4 +17,5 @@ This is a simple ATM (Automated Teller Machine) simulation web application built
 - **Deposit**: Add funds to your account.
 - **Withdraw**: Withdraw money (with validation for sufficient balance).
 
-
+## Disclaimer
+This project is for viewing purposes only. Unauthorized copying, modification, or distribution of this work is strictly prohibited.
